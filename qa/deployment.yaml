@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: gohelloworld
-          image: 307679855071.dkr.ecr.us-west-2.amazonaws.com/gohelloworld:22
+          image: 307679855071.dkr.ecr.us-west-2.amazonaws.com/gohelloworld:24
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
